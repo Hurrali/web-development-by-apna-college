@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blueviolet;
+}
+.class-selector{
+    background-color: brown;
+}
+#id-selector{
+    color: blue  ;
+}
+a[href="#"]{
+    color: darkslategrey;
+}
+.pseudoclass:hover{
+    color: cornsilk;
+    background-color: #ebdede;
+    padding: 10px 5px;
+    border-radius: 10px;
+    text-decoration: line-through;
+}
+.pseudoelement::first-line{
+    color: blue;
+}
+.pseudoelement::first-letter{
+    color: darkseagreen;
+    font-size: 50px;
+}
+article>h4{
+    color: yellowgreen;
+}
+article>p{
+    color: darkviolet ;
+}
+h6+p{
+    color: blue;
+}
