@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance prop in CSS</title>
+    <style>
+        /* body{
+            text-align: center;
+            background: #ccc;
+        }
+        .clip-path{
+            clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);        }
+        html{
+            height:100%;
+        }
+        image{
+            height: 75%;
+        } */
+        div{
+            width: 160px;
+            height: 80px;
+            padding: 20px;
+            border: 8px solid red;
+            background: yellow;
+        }
+        .content-box{
+            box-sizing: content-box;
+        }
+        .border-box{
+            box-sizing: border-box;
+        }
+        /* padding r border border-box me include ho ga */
+    </style>
+</head>
+<body>
+    <!-- <img class="clip-path" src="hurr profile.jpg" alt="Profile"> -->
+    <div class="content-box">Content box</div>
+    <br>
+    <div class="border-box">Border box</div>
+
+</body>
+</html>
